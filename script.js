@@ -12,14 +12,14 @@ if (form && formStatus) {
     const data = new FormData(form);
     const name = (data.get("name") || "").toString().trim();
     const organization = (data.get("organization") || "").toString().trim();
-    const type = (data.get("type") || "General enquiry").toString().trim();
+    const email = (data.get("email") || "").toString().trim();
     const message = (data.get("message") || "").toString().trim();
 
-    const subject = `KairosX enquiry — ${type}`;
+    const subject = `KairosX enquiry${name ? ` — ${name}` : ""}`;
     const bodyLines = [
       `Name: ${name}`,
       `Organization: ${organization || "—"}`,
-      `Contact type: ${type}`,
+      `Email: ${email}`,
       "",
       message,
     ];

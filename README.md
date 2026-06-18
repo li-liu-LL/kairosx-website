@@ -6,8 +6,7 @@ Static frontend prototype for `KairosX.com`, using the supplied KairosX media as
 
 - `index.html` - Home page and corporate positioning.
 - `about.html` - KairosX identity, mission, focus, and governance placeholder.
-- `businesses.html` - Digital assets, payments, financial infrastructure, strategic investments, and emerging markets.
-- `jurisdictions.html` - KairosX Bhutan, KairosX Luxembourg, and future jurisdiction evaluation.
+- `jurisdictions.html` - KairosX Bhutan (Bhutan Digital Economy Initiative).
 - `contact.html` - External contact form (mailto handoff).
 - `privacy.html` - Privacy and legal notice (footer-linked).
 - `404.html` - Branded not-found page (uses root-absolute paths).

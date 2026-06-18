@@ -665,6 +665,11 @@ img {
   gap: 16px;
 }
 
+.jurisdiction-grid.single {
+  grid-template-columns: 1fr;
+  max-width: 760px;
+}
+
 .status-card {
   min-height: 360px;
   padding: 26px;
