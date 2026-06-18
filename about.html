@@ -6,14 +6,14 @@
     <title>KairosX | About</title>
     <meta
       name="description"
-      content="About KairosX, a financial infrastructure company focused on digital assets, payments, strategic investments, and emerging market opportunities."
+      content="About KairosX, a digital finance group focused on digital assets, payments, and strategic investments across global markets."
     >
     <link rel="icon" href="./assets/kairosx_favicon.ico">
     <link rel="preload" href="./assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="./assets/fonts/inter-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="./styles.css">
   </head>
-  <body>
+  <body class="about-page">
     <a class="skip-link" href="#main">Skip to content</a>
 
     <header class="site-header">
@@ -31,51 +31,85 @@
     </header>
 
     <main id="main">
-      <section class="page-hero">
-        <h1>The group behind the infrastructure.</h1>
-        <p>
-          KairosX brings together digital assets, payments, infrastructure and strategic investments across emerging financial markets.
-        </p>
-      </section>
-
-      <section class="split-section ruled" aria-labelledby="identityTitle">
-        <div>
-          <h2 id="identityTitle">Who We Are</h2>
+      <section class="page-hero about-intro" aria-labelledby="aboutTitle">
+        <div class="about-intro-lead">
+          <h1 id="aboutTitle">Building regulated businesses across digital assets, payments, and strategic investments.</h1>
         </div>
-        <div class="content-stack">
+        <div class="about-intro-copy">
           <p>
-            KairosX is a financial infrastructure group spanning digital assets, payments, strategic investments and emerging markets.
+            KairosX combines expertise across digital assets, payments, institutional markets, and strategic capital to build businesses that support the long-term development of digital finance.
           </p>
           <p>
-            We work alongside institutions and partners who build for the long term, where infrastructure and capital meet at the right moment.
+            The group combines experience across digital assets, payments, institutional trading, regulatory engagement, infrastructure development, and strategic capital.
+          </p>
+          <p>
+            We build businesses that connect traditional finance with the digital economy.
           </p>
         </div>
       </section>
 
-      <section class="section-block" aria-labelledby="missionTitle">
+      <section class="section-block ruled" aria-labelledby="whyTitle">
         <div class="section-heading">
-          <h2 id="missionTitle">Vision and Approach</h2>
+          <h2 id="whyTitle">Why KairosX Exists</h2>
         </div>
-        <div class="statement-list">
+        <div class="why-row">
           <article>
-            <span>Vision</span>
-            <h3>We build the infrastructure that modern finance will rest on.</h3>
-            <p>
-              Stronger infrastructure, broader connectivity and trusted partnerships will shape what finance becomes.
-            </p>
+            <span>01</span>
+            <h3>Regulated</h3>
+            <p>Built around financial services frameworks.</p>
           </article>
           <article>
-            <span>Mission</span>
-            <h3>We develop infrastructure, payment connectivity, digital asset initiatives and strategic investments across global markets.</h3>
-            <p>
-              We commit where infrastructure, capital and market development create lasting value.
-            </p>
+            <span>02</span>
+            <h3>Institutional</h3>
+            <p>Designed for governance, resilience, and trust.</p>
           </article>
           <article>
-            <span>Approach</span>
-            <h3>Partnership for the Long Term</h3>
+            <span>03</span>
+            <h3>Long-Term</h3>
+            <p>Focused on sustainable growth across markets.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block" aria-labelledby="buildTitle">
+        <div class="section-heading">
+          <h2 id="buildTitle">What We Build</h2>
+        </div>
+        <div class="card-grid three about-card-grid">
+          <article class="info-card about-service-card">
+            <svg class="card-icon" aria-hidden="true" viewBox="0 0 48 48">
+              <path d="M10 18h24"></path>
+              <path d="M28 12l6 6-6 6"></path>
+              <path d="M38 30H14"></path>
+              <path d="M20 24l-6 6 6 6"></path>
+            </svg>
+            <h3>Digital Asset Markets</h3>
             <p>
-              We hold to responsible execution and partnerships measured in years, not moments.
+              Trading, brokerage, custody and settlement infrastructure.
+            </p>
+          </article>
+          <article class="info-card about-service-card">
+            <svg class="card-icon" aria-hidden="true" viewBox="0 0 48 48">
+              <circle cx="12" cy="24" r="5"></circle>
+              <circle cx="36" cy="14" r="5"></circle>
+              <circle cx="36" cy="34" r="5"></circle>
+              <path d="M17 22l14-6"></path>
+              <path d="M17 26l14 6"></path>
+            </svg>
+            <h3>Payments Infrastructure</h3>
+            <p>
+              Connectivity, settlement and financial services rails.
+            </p>
+          </article>
+          <article class="info-card about-service-card">
+            <svg class="card-icon" aria-hidden="true" viewBox="0 0 48 48">
+              <path d="M10 36h28"></path>
+              <path d="M14 32l8-8 6 5 10-14"></path>
+              <path d="M31 15h7v7"></path>
+            </svg>
+            <h3>Strategic Investments</h3>
+            <p>
+              Capital and partnerships supporting digital finance ecosystems.
             </p>
           </article>
         </div>
@@ -87,8 +121,7 @@
       <div class="footer-brand">
         <img src="./assets/kairosx_logo_cropped.png" alt="KairosX">
         <p>
-          KairosX is a financial infrastructure company focused on digital assets, payments,
-          strategic investments, and emerging market opportunities.
+          Building regulated digital finance businesses.
         </p>
       </div>
       <div class="footer-links" aria-label="Footer navigation">
@@ -96,13 +129,11 @@
         <a href="./about.html">About</a>
         <a href="./jurisdictions.html">Jurisdictions</a>
         <a href="./contact.html">Contact</a>
-        <a href="./privacy.html">Privacy</a>
+        <a href="./privacy.html">Privacy &amp; Legal</a>
       </div>
-      <p class="legal">
-        The information contained on this website is provided for general informational purposes only and does not
-        constitute financial, investment, legal, or other professional advice. Nothing on this website constitutes an
-        offer, solicitation, or recommendation with respect to any financial product or service.
-      </p>
+      <div class="footer-bottom">
+        <p>&copy; 2026 KairosX. All rights reserved.</p>
+      </div>
     </footer>
 
     <script src="./script.js"></script>
